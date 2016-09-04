@@ -6,6 +6,7 @@
 }
 .koukoku{
     height: 250px;
+    border:solid 1px #000;
 }
 
 .yokutukau h3{
