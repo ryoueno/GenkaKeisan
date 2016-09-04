@@ -10,6 +10,9 @@
     <link rel="stylesheet" href="css/footer.css">
 </head>
 <body>
+<!-- 汎用ファイル読み込み -->
+<?php require_once('common/common.php');?>
+
 <?php require_once('header.php');?>
 <div class="container">
     <?php require_once('mainbody.php');?>
