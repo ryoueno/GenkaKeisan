@@ -1,3 +1,3 @@
 <div id="footer">
-これはフッターです
+©GENKA/life-foodcost/powered by zoo
 </div>
