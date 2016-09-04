@@ -20,3 +20,15 @@ body{
 .main-top{
 	text-align:center;
 }
+
+table#main-table th {
+    width: 530px;
+    border: 1px #E3E3E3 solid;
+    border-collapse: collapse;
+    border-spacing: 0;
+    background-color: #99FFCC;
+
+}
+.main-content{
+    padding:0px 20px;
+}
