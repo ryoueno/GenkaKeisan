@@ -1,0 +1,18 @@
+body{
+	width:1024px;
+	margin:0px auto;
+}
+
+.container{
+	overflow:hidden;
+}
+
+#mainbody{
+	width:750px;
+	float:left;
+	border:solid 1px #000;
+}
+
+.main-top{
+	text-align:center;
+}
