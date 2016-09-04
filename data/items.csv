@@ -1,0 +1,2 @@
+id,category_id(カテゴリID),name,price（原価）,unit（単位）,step（値の幅）,views
+,3,とうもろこし,80,本,1,0
