@@ -1,6 +1,10 @@
+html{
+    background-image:url(/img/restaurant_icons.png);
+}
 body{
-	width:1024px;
+	width:1074px;
 	margin:0px auto;
+    background-color: #fff;
 }
 
 .container{
