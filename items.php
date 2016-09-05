@@ -4,6 +4,24 @@
             $(this).next().slideToggle();
         });
     });
+
+    var items = <?php echo json_encode($items, JSON_HEX_TAG | JSON_HEX_AMP | JSON_HEX_APOS | JSON_HEX_QUOT); ?>;
+    console.log(items);
+
+    function addItem(cat_id,id){
+        $.ajax({
+            type: "POST",
+            url : "add_view.php",
+            data: {id:id},
+            success:function(){
+                alert("食品ID："+id+" にポイントを追加したぜよ。");
+            },
+            error:function(){
+                //通信失敗時の処理
+                alert("missed");
+            }
+        });
+    }
 </script>
 <style>
 li{
@@ -86,7 +104,7 @@ li{
                         <dd>
                             <?php $cnt = 0;?>
                             <?php foreach ($cat['items'] as $id => $item) :?>
-                                <span class="r<?=$cnt%2;?>"><?= $item['name'];?></span>
+                                <span onclick="addItem(<?=$key;?>,<?=$id;?>)" class="r<?=$cnt%2;?>"><?= $item['name'];?></span>
                                 <?php $cnt++; ?>
                             <?php endforeach;?>
                         </dd>
@@ -108,7 +126,7 @@ li{
                         <dd>
                             <?php $cnt = 0;?>
                             <?php foreach ($cat['items'] as $id => $item) :?>
-                                <span class="r<?=$cnt%2;?>"><?= $item['name'];?></span>
+                                <span onclick="addItem(<?=$key;?>,<?=$id;?>)" class="r<?=$cnt%2;?>"><?= $item['name'];?></span>
                                 <?php $cnt++; ?>
                             <?php endforeach;?>
                         </dd>
