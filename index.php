@@ -3,7 +3,8 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>タイトル</title>
+    <title>食品原価計算機</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
     <link rel="stylesheet" href="css/header.css">
     <link rel="stylesheet" href="css/mainbody.css">
     <link rel="stylesheet" href="css/sidebar.css">
