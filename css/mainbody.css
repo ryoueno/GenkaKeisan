@@ -36,3 +36,13 @@ table#main-table th {
 .main-content{
     padding:0px 20px;
 }
+.title{
+    line-height: 55px;
+    height: 60px;
+    margin: 0px;
+    padding: 0px;
+    background-image: url(/img/0012.png);
+    background-repeat: no-repeat;
+    background-size: 50px;
+    background-position: 156px 13px;
+}
