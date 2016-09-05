@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/mainbody.css">
     <link rel="stylesheet" href="css/sidebar.css">
     <link rel="stylesheet" href="css/footer.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
 </head>
 <body>
 <!-- 汎用ファイル読み込み -->
