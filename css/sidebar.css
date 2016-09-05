@@ -3,12 +3,35 @@
 	float:right;
 	padding-bottom: 32768px;
 	margin-bottom: -32768px;
+	margin-left:10px;
 }
 .koukoku{
     height: 250px;
     border:solid 1px #000;
+    background-color:#fff;
+}
+
+.yokutukau{
+	background-color:#fff;
+	margin-top:10px;
+	border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+.yokutukau .item-list span{
+    width: 85%;
+    height: 30px;
+    line-height: 32px;
+    margin:10px auto;
+}
+
+.yokutukau ul{
+	padding:0;
 }
 
 .yokutukau h3{
+	padding: 20px 20px 0;
+    margin: 0;
 }
 

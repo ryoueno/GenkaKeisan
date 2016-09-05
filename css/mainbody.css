@@ -2,9 +2,8 @@ html{
     background-image:url(/img/restaurant_icons.png);
 }
 body{
-	width:1074px;
-	margin:0px auto;
-    background-color: #fff;
+	width:1060px;
+	margin:20px auto;
 }
 
 .container{
@@ -14,7 +13,12 @@ body{
 #mainbody{
 	width:750px;
 	float:left;
-	border:solid 1px #000;
+    background-color:#fff;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    padding-bottom: 32768px;
+    margin-bottom: -32768px;
 }
 
 .main-top{

@@ -56,9 +56,9 @@ li{
     color: #333;
     border: solid 1px #66FF88;
     background-color: #99FFCC;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     background-image: url(/img/btn-mark.png);
     background-repeat: no-repeat;
     background-size: 30px;
@@ -71,9 +71,9 @@ li{
     width: 48%;
     margin: 5px 0px;
     border: solid 1px #0f0;
-    border-radius: 4px;
-    -webkit-border-radius: 4px;
-    -moz-border-radius: 4px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
     color: #333;
 }
 

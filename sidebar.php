@@ -9,7 +9,7 @@
 
         <ul>
             <?php foreach ($pop as $lank => $item) :?>
-                <li>
+                <li class="item-list">
                     <span onclick="addItem(<?=$item['category_id'];?>,<?=$item['id'];?>)" >
                         <?= $item['name']; ?>
                     </span>
